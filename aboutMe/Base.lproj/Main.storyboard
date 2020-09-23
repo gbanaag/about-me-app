@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="aboutMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pkZ-7X-Pz5">
+                                <rect key="frame" x="170" y="3955" width="49" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                                <state key="normal" title="🗽"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Click an emoji below ☺️✨🥰❤️" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NFG-AI-BQD">
+                                <rect key="frame" x="242" y="4043" width="252" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Gabby!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oyM-5a-3QI">
+                                <rect key="frame" x="86.5" y="106" width="241" height="48"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="38"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ztT-tt-vzQ">
+                                <rect key="frame" x="85" y="559" width="49" height="65"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                                <state key="normal" title="🎨"/>
+                                <connections>
+                                    <action selector="designButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BeE-gp-tRF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hxp-Sd-eqt">
+                                <rect key="frame" x="153" y="559" width="49" height="65"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                                <state key="normal" title="🌍"/>
+                                <connections>
+                                    <action selector="hellooButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hkz-Hh-prD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TPX-TI-KSe">
+                                <rect key="frame" x="281" y="630" width="49" height="65"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                                <state key="normal" title="🧗🏻‍♀️"/>
+                                <connections>
+                                    <action selector="rockButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LQy-PS-W0f"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i14-ea-jfw">
+                                <rect key="frame" x="219" y="630" width="49" height="65"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                                <state key="normal" title="🎭"/>
+                                <connections>
+                                    <action selector="theatreButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A9G-gw-NUa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="23M-bu-qKm">
+                                <rect key="frame" x="153" y="630" width="49" height="65"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                                <state key="normal" title="🏄🏻‍♀️"/>
+                                <connections>
+                                    <action selector="surfButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QjT-KK-InE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c70-PB-Qjt">
+                                <rect key="frame" x="85" y="630" width="49" height="65"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                                <state key="normal" title="🍎"/>
+                                <connections>
+                                    <action selector="steveJobsButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="229-T2-Rsy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="igY-oP-Qv2">
+                                <rect key="frame" x="85" y="703" width="49" height="65"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                                <state key="normal" title="🏛"/>
+                                <connections>
+                                    <action selector="museumButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ILI-pU-jUf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qug-0M-6TW">
+                                <rect key="frame" x="281" y="703" width="49" height="65"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                                <state key="normal" title="💓"/>
+                                <connections>
+                                    <action selector="friendButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tum-Ty-f6T"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JdH-K7-TM8">
+                                <rect key="frame" x="219" y="559" width="49" height="65"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                                <state key="normal" title="🍃"/>
+                                <connections>
+                                    <action selector="animalCrossing:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4eU-L4-KyK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Klp-eh-V1g">
+                                <rect key="frame" x="85" y="491" width="49" height="65"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                                <state key="normal" title="🌉"/>
+                                <connections>
+                                    <action selector="sfButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xFM-eO-cJV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="olt-sW-d1r">
+                                <rect key="frame" x="281" y="559" width="49" height="65"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                                <state key="normal" title="📷"/>
+                                <connections>
+                                    <action selector="photoButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H0e-yq-ceK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yp1-zE-M5W">
+                                <rect key="frame" x="219" y="703" width="49" height="65"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                                <state key="normal" title="🍔"/>
+                                <connections>
+                                    <action selector="hungryButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3PB-eX-YoQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u3M-6H-7y3">
+                                <rect key="frame" x="281" y="491" width="49" height="65"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                                <state key="normal" title="🇵🇭"/>
+                                <connections>
+                                    <action selector="phButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="24S-5d-wlx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sga-sV-YmD">
+                                <rect key="frame" x="153" y="703" width="49" height="65"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                                <state key="normal" title="🍳"/>
+                                <connections>
+                                    <action selector="eggButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WkF-6q-wLs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0My-FC-Whc">
+                                <rect key="frame" x="153" y="491" width="49" height="65"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                                <state key="normal" title="👩🏻‍💻"/>
+                                <connections>
+                                    <action selector="kwkButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OOI-7H-MYd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GGX-mb-N9h">
+                                <rect key="frame" x="219" y="491" width="49" height="65"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                                <state key="normal" title="🗽"/>
+                                <connections>
+                                    <action selector="nyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ALc-vy-8bH"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Click an emoji below ☺️✨🥰❤️" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qAk-Fb-THf">
+                                <rect key="frame" x="0.0" y="448" width="416" height="22"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="gabby" translatesAutoresizingMaskIntoConstraints="NO" id="IV6-a2-zfl">
+                                <rect key="frame" x="129" y="174" width="158" height="260"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="197" id="788-on-doD"/>
+                                    <constraint firstAttribute="height" constant="260" id="Zfg-tc-d3w"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap an emoji to learn more about me! " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="baf-Lk-91C">
+                                <rect key="frame" x="86" y="146" width="242" height="17"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ztT-tt-vzQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="85" id="34L-UY-yHk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qug-0M-6TW" secondAttribute="trailing" constant="84" id="3LS-2n-jq9"/>
+                            <constraint firstItem="igY-oP-Qv2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="85" id="3Pj-XJ-1VH"/>
+                            <constraint firstItem="Sga-sV-YmD" firstAttribute="top" secondItem="23M-bu-qKm" secondAttribute="bottom" constant="8" id="4dS-N8-6i5"/>
+                            <constraint firstItem="JdH-K7-TM8" firstAttribute="top" secondItem="GGX-mb-N9h" secondAttribute="bottom" constant="3" id="5Ab-r1-KYs"/>
+                            <constraint firstItem="c70-PB-Qjt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="85" id="6VR-Ge-cxI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qug-0M-6TW" secondAttribute="bottom" constant="59" id="7T1-E8-uTA"/>
+                            <constraint firstItem="23M-bu-qKm" firstAttribute="top" secondItem="hxp-Sd-eqt" secondAttribute="bottom" constant="6" id="Bi3-ew-vJG"/>
+                            <constraint firstItem="hxp-Sd-eqt" firstAttribute="top" secondItem="0My-FC-Whc" secondAttribute="bottom" constant="3" id="FYD-kE-NJJ"/>
+                            <constraint firstItem="GGX-mb-N9h" firstAttribute="top" secondItem="qAk-Fb-THf" secondAttribute="bottom" constant="40" id="HHz-jp-OAp"/>
+                            <constraint firstItem="JdH-K7-TM8" firstAttribute="leading" secondItem="hxp-Sd-eqt" secondAttribute="trailing" constant="17" id="IAh-sV-dgX"/>
+                            <constraint firstItem="oyM-5a-3QI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="62" id="J0J-qb-yHq"/>
+                            <constraint firstItem="u3M-6H-7y3" firstAttribute="top" secondItem="qAk-Fb-THf" secondAttribute="bottom" constant="40" id="Mg0-wU-5yI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IV6-a2-zfl" secondAttribute="trailing" constant="108" id="S01-0N-Lqo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TPX-TI-KSe" secondAttribute="trailing" constant="84" id="S27-dm-g4z"/>
+                            <constraint firstItem="baf-Lk-91C" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="T72-wy-Ojj"/>
+                            <constraint firstItem="oyM-5a-3QI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UUp-lr-2Eu"/>
+                            <constraint firstItem="IV6-a2-zfl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VxD-p1-Kla"/>
+                            <constraint firstItem="ztT-tt-vzQ" firstAttribute="top" secondItem="Klp-eh-V1g" secondAttribute="bottom" constant="3" id="XcS-2I-LG3"/>
+                            <constraint firstItem="igY-oP-Qv2" firstAttribute="top" secondItem="c70-PB-Qjt" secondAttribute="bottom" constant="8" id="Yj5-eU-M72"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="u3M-6H-7y3" secondAttribute="trailing" constant="84" id="ZM4-D4-CVy"/>
+                            <constraint firstItem="qug-0M-6TW" firstAttribute="leading" secondItem="Yp1-zE-M5W" secondAttribute="trailing" constant="13" id="ZT7-Jg-yAI"/>
+                            <constraint firstItem="Klp-eh-V1g" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="85" id="a92-o8-lac"/>
+                            <constraint firstItem="qug-0M-6TW" firstAttribute="top" secondItem="TPX-TI-KSe" secondAttribute="bottom" constant="8" id="agW-3A-25x"/>
+                            <constraint firstItem="0My-FC-Whc" firstAttribute="leading" secondItem="Klp-eh-V1g" secondAttribute="trailing" constant="19" id="bgI-TQ-CBe"/>
+                            <constraint firstItem="baf-Lk-91C" firstAttribute="top" secondItem="oyM-5a-3QI" secondAttribute="bottom" constant="-7" id="d0L-uw-MP8"/>
+                            <constraint firstItem="0My-FC-Whc" firstAttribute="top" secondItem="qAk-Fb-THf" secondAttribute="bottom" constant="40" id="da4-73-7oM"/>
+                            <constraint firstItem="Yp1-zE-M5W" firstAttribute="top" secondItem="i14-ea-jfw" secondAttribute="bottom" constant="8" id="eGo-7X-E1s"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Sga-sV-YmD" secondAttribute="bottom" constant="59" id="ebr-ay-prt"/>
+                            <constraint firstItem="23M-bu-qKm" firstAttribute="leading" secondItem="c70-PB-Qjt" secondAttribute="trailing" constant="19" id="fGC-Wq-ovj"/>
+                            <constraint firstItem="olt-sW-d1r" firstAttribute="leading" secondItem="JdH-K7-TM8" secondAttribute="trailing" constant="13" id="gam-Np-lN6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="olt-sW-d1r" secondAttribute="trailing" constant="84" id="hCW-4q-OC0"/>
+                            <constraint firstItem="Klp-eh-V1g" firstAttribute="top" secondItem="qAk-Fb-THf" secondAttribute="bottom" constant="40" id="hmA-vI-Lc1"/>
+                            <constraint firstItem="Yp1-zE-M5W" firstAttribute="leading" secondItem="Sga-sV-YmD" secondAttribute="trailing" constant="17" id="hyY-dH-mk4"/>
+                            <constraint firstItem="IV6-a2-zfl" firstAttribute="top" secondItem="baf-Lk-91C" secondAttribute="bottom" constant="11" id="iQT-h4-VuN"/>
+                            <constraint firstItem="Sga-sV-YmD" firstAttribute="leading" secondItem="igY-oP-Qv2" secondAttribute="trailing" constant="19" id="k1a-Uq-Mff"/>
+                            <constraint firstItem="qAk-Fb-THf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="n6h-B7-bhP"/>
+                            <constraint firstItem="i14-ea-jfw" firstAttribute="leading" secondItem="23M-bu-qKm" secondAttribute="trailing" constant="17" id="nmT-vy-ThT"/>
+                            <constraint firstItem="IV6-a2-zfl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="109" id="npU-SG-wzZ"/>
+                            <constraint firstItem="olt-sW-d1r" firstAttribute="top" secondItem="u3M-6H-7y3" secondAttribute="bottom" constant="3" id="oYT-lt-E5R"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="igY-oP-Qv2" secondAttribute="bottom" constant="59" id="qMD-EG-nf1"/>
+                            <constraint firstItem="GGX-mb-N9h" firstAttribute="leading" secondItem="0My-FC-Whc" secondAttribute="trailing" constant="17" id="slN-gX-zk2"/>
+                            <constraint firstItem="TPX-TI-KSe" firstAttribute="top" secondItem="olt-sW-d1r" secondAttribute="bottom" constant="6" id="t2i-Gi-w4x"/>
+                            <constraint firstItem="hxp-Sd-eqt" firstAttribute="leading" secondItem="ztT-tt-vzQ" secondAttribute="trailing" constant="19" id="tHx-8J-1g3"/>
+                            <constraint firstItem="i14-ea-jfw" firstAttribute="top" secondItem="JdH-K7-TM8" secondAttribute="bottom" constant="6" id="tfF-3i-B2Q"/>
+                            <constraint firstItem="c70-PB-Qjt" firstAttribute="top" secondItem="ztT-tt-vzQ" secondAttribute="bottom" constant="6" id="vdv-yC-9P1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Yp1-zE-M5W" secondAttribute="bottom" constant="59" id="wq3-h9-ycI"/>
+                            <constraint firstItem="baf-Lk-91C" firstAttribute="top" secondItem="oyM-5a-3QI" secondAttribute="bottom" constant="-8" id="xMf-qw-b6T"/>
+                            <constraint firstItem="qAk-Fb-THf" firstAttribute="top" secondItem="IV6-a2-zfl" secondAttribute="bottom" constant="18" id="xNc-oJ-TKZ"/>
+                            <constraint firstItem="TPX-TI-KSe" firstAttribute="leading" secondItem="i14-ea-jfw" secondAttribute="trailing" constant="13" id="xas-mv-hkI"/>
+                            <constraint firstItem="u3M-6H-7y3" firstAttribute="leading" secondItem="GGX-mb-N9h" secondAttribute="trailing" constant="13" id="xmT-Bg-MMh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="aboutLabel" destination="oyM-5a-3QI" id="IbU-p6-usG"/>
+                        <outlet property="imgPlaceholder" destination="IV6-a2-zfl" id="8N6-me-scb"/>
+                        <outlet property="instructionLabel" destination="baf-Lk-91C" id="z1W-4b-Yjy"/>
+                        <outlet property="instructionLabelTwo" destination="qAk-Fb-THf" id="OV7-aW-fB7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="105.79710144927537" y="111.83035714285714"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="gabby" width="3024" height="4032"/>
+    </resources>
+</document>
